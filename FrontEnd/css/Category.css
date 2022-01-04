@@ -1,0 +1,25 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.top_container .list_product .department{
+    padding-left: 14px;
+}
+.top_container .list_product .department ul{
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+}
+.top_container .list_product .department ul li{
+    list-style: none;
+}
+.top_container    .show_list_product{
+    display: flex;
+    flex-wrap: wrap;
+}
+.top_container    .show_list_product .card{
+    margin: 20px 40px;
+}
